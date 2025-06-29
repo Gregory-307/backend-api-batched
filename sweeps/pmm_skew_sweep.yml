@@ -1,0 +1,19 @@
+base:
+  controller_name: pmm_skew
+  controller_type: market_making
+  connector_name: kucoin
+  trading_pair: BTC-USDT
+  total_amount_quote: 500
+  skew_factor: 0.2
+  candles_config: []
+
+grid:
+  buy_spreads: [0.001, 0.002]
+  sell_spreads: [0.001, 0.002]
+  skew_factor: [0.0, 0.1, 0.2]
+
+meta:
+  start: 2024-03-11
+  end: 2024-03-13
+  resolution: 3m
+  fee: 0.001 

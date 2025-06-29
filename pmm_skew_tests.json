@@ -1,0 +1,338 @@
+[
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.0,
+      "candles_config": [],
+      "buy_spreads": [
+        0.001
+      ],
+      "sell_spreads": [
+        0.001
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_1"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.1,
+      "candles_config": [],
+      "buy_spreads": [
+        0.001
+      ],
+      "sell_spreads": [
+        0.001
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_2"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.2,
+      "candles_config": [],
+      "buy_spreads": [
+        0.001
+      ],
+      "sell_spreads": [
+        0.001
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_3"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.0,
+      "candles_config": [],
+      "buy_spreads": [
+        0.001
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_4"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.1,
+      "candles_config": [],
+      "buy_spreads": [
+        0.001
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_5"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.2,
+      "candles_config": [],
+      "buy_spreads": [
+        0.001
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_6"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.0,
+      "candles_config": [],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.001
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_7"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.1,
+      "candles_config": [],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.001
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_8"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.2,
+      "candles_config": [],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.001
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_9"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.0,
+      "candles_config": [],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_10"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.1,
+      "candles_config": [],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_11"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_skew",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 500,
+      "skew_factor": 0.2,
+      "candles_config": [],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_skew_12"
+  }
+]

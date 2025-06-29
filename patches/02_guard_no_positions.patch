@@ -1,0 +1,9 @@
+--- a/hummingbot/strategy_v2/backtesting/backtesting_engine_base.py
++++ b/hummingbot/strategy_v2/backtesting/backtesting_engine_base.py
+@@
+-            total_executors_with_position = executors_with_position.shape[0]
+-            total_volume = executors_with_position["filled_amount_quote"].sum()
++            total_executors_with_position = executors_with_position.shape[0]
++            if total_executors_with_position == 0:
++                return {"trades": 0, "note": "no positions"}
++            total_volume = executors_with_position["filled_amount_quote"].sum() 

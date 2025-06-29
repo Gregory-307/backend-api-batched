@@ -1,0 +1,13 @@
+# This file is used for local development to enable hot-reloading.
+# It is automatically picked up by docker-compose.
+services:
+  backend-api:
+    volumes:
+      # Live-mount your local code into the container.
+      # Changes on your host machine will be instantly reflected inside the container.
+      - .:/backend-api
+      # Cache pip wheels to speed up image builds (requires BuildKit).
+      - backend_pip_cache:/root/.cache/pip
+
+volumes:
+  backend_pip_cache: 
