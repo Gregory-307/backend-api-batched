@@ -263,7 +263,7 @@ for idx, row in df_top5.iterrows():
             else:
                 scaled = 0.5
             scaled_vals.append(scaled)
-
+         
         fig_spider = go.Figure(
             data=[
                 go.Scatterpolar(

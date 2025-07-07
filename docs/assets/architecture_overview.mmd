@@ -1,0 +1,150 @@
+flowchart TD
+  %% ───────────────────────────────────────────────
+  %% 1  CLIENT / DEV SIDE
+  %% ───────────────────────────────────────────────
+  subgraph CLIENT["💻  Dev / Client "]
+    SimpleTest["simple_test.py"]
+    CLI["make targets\n(grid / batch)"]
+    DashboardStub["Streamlit Dashboard (launch only)"]
+  end
+
+  %% ───────────────────────────────────────────────
+  %% 2  PAYLOAD CONSTRUCTION  (host Python helpers)
+  %% ───────────────────────────────────────────────
+  subgraph HOST_TOOLS["YAML → JSON → Batch"]
+    A1_GridBuilder["grid_builder.py"]
+    A2_JSON_List["*.json payload list"]
+    A3_BatchTester["batch_tester.py\n(ThreadPool)"]
+  end
+
+  %% ───────────────────────────────────────────────
+  %% 3  NETWORK BOUNDARY (single POST request)
+  %% ───────────────────────────────────────────────
+  A3_BatchTester -- "HTTP POST /run-backtesting" --> B1_APIRoute
+
+  %% ───────────────────────────────────────────────
+  %% 4  FASTAPI BACKEND (inside Docker container)
+  %% ───────────────────────────────────────────────
+  subgraph DOCKER["🐳  backend-api container"]
+    direction TB
+    B1_APIRoute["manage_backtesting router"]
+    B2_PatchLayer["runtime monkey-patches"]
+    B3_Engine["BacktestingEngineBase"]
+    B4_ControllerAuto["dynamic import\nbots/controllers/*"]
+    B5_DataProvider["BacktestingDataProvider"]
+    B6_CandlesCache["candles_cache.py (Parquet)"]
+    B7_Controllers["controllers code"]
+    B8_Executors["Executor objects"]
+    B9_Summarise["summarize_results"]
+  end
+
+  %% ───────────────────────────────────────────────
+  %% 5  HOST FILESYSTEM  (outputs)
+  %% ───────────────────────────────────────────────
+  subgraph RESULTS["🗄️  host filesystem"]
+    C1_SummaryCSV["results/summaries CSV"]
+    C2_DetailPackets["results/detail packets"]
+  end
+
+  %% ───────────────────────────────────────────────
+  %% EDGES – data & control flow
+  %% ───────────────────────────────────────────────
+  CLI -- "YAML sweep" --> A1_GridBuilder
+  A1_GridBuilder -- "JSON list" --> A2_JSON_List
+  A3_BatchTester -- "reads" --> A2_JSON_List
+  SimpleTest -- "single JSON example" --> A3_BatchTester
+
+  B1_APIRoute --> B2_PatchLayer
+  B2_PatchLayer --> B3_Engine
+  B3_Engine --> B4_ControllerAuto
+  B3_Engine --> B5_DataProvider
+  B5_DataProvider -. "fetch candles" .- ExchangeREST["Exchange REST"]
+  B5_DataProvider -. "cache" .- B6_CandlesCache
+  B4_ControllerAuto -->|imports| B7_Controllers
+  B7_Controllers -->|trades| B8_Executors
+  B3_Engine -->|KPIs| B9_Summarise
+  B9_Summarise --> B1_APIRoute
+
+  B1_APIRoute -- "JSON" --> A3_BatchTester
+  A3_BatchTester --> C1_SummaryCSV
+  A3_BatchTester --> C2_DetailPackets
+
+  %% ───────────────────────────────────────────────
+  %% 6  STREAMLIT DASHBOARD & VISUALISATION
+  %% ───────────────────────────────────────────────
+  subgraph DASHBOARD["📊  Streamlit dashboard (host)"]
+    D1_Watcher["dev_watch.py"]
+    D2_Streamlit["Streamlit runtime"]
+    D3_HB_Components["hb_components/*"]
+    D4_Pages_OV["Experiments Overview"]
+    D5_Pages_Top5["Top-5 Comparator"]
+    D6_Pages_Exp["Experiment Analysis"]
+    D7_PacketIndex["_index.csv loader"]
+  end
+
+  D1_Watcher -->|auto-reload| D2_Streamlit
+  D2_Streamlit --> D3_HB_Components
+  D2_Streamlit --> D4_Pages_OV
+  D2_Streamlit --> D5_Pages_Top5
+  D2_Streamlit --> D6_Pages_Exp
+  D4_Pages_OV --> D7_PacketIndex
+  D5_Pages_Top5 --> D7_PacketIndex
+  D6_Pages_Exp --> D7_PacketIndex
+
+  %% ───────────────────────────────────────────────
+  %% 7  OTHER FASTAPI ROUTERS (collapsed list)
+  %% ───────────────────────────────────────────────
+  subgraph OtherRouters["other FastAPI routers"]
+    ORoutes["manage_files<br/>manage_market_data<br/>manage_performance<br/>manage_docker<br/>manage_accounts<br/>manage_broker_messages<br/>manage_databases"]
+  end
+
+  %% ───────────────────────────────────────────────
+  %% 8  BACKGROUND SERVICES (collapsed list)
+  %% ───────────────────────────────────────────────
+  subgraph Services["services/*"]
+    SList["accounts_service<br/>docker_service<br/>bots_orchestrator<br/>bot_archiver"]
+  end
+
+  %% ───────────────────────────────────────────────
+  %% 9  BUILD-TIME PATCH LOOP
+  %% ───────────────────────────────────────────────
+  subgraph BUILD["🐳  Docker build"]
+    L1_Source["source code"]
+    L2_Patches["patches/*.patch"]
+    L3_PatchLoop["patch --forward loop"]
+    L4_SitePkgs["site-packages"]
+    L1_Source --> L3_PatchLoop
+    L2_Patches --> L3_PatchLoop
+    L3_PatchLoop --> L4_SitePkgs
+  end
+
+  L3_PatchLoop -- "image layers" --> DOCKER
+
+  %% ───────────────────────────────────────────────
+  %% 10  DEV / CI HELPERS
+  %% ───────────────────────────────────────────────
+  subgraph DEV_HELPERS["dev / CI helpers"]
+    H1_QuickSmoke["quick_smoke.py"]
+    H2_UISmoke["ui_smoke.py"]
+    H3_Makefile["Make targets"]
+  end
+
+  H3_Makefile --> H1_QuickSmoke
+  H3_Makefile --> H2_UISmoke
+  H2_UISmoke --> D2_Streamlit
+
+  DOCKER -. "contains" .- OtherRouters
+  DOCKER -. "contains" .- Services
+
+  C1_SummaryCSV --> D2_Streamlit
+  C2_DetailPackets --> D2_Streamlit
+
+  D1_Watcher --> H1_QuickSmoke
+  D1_Watcher --> H2_UISmoke
+
+  CLI -. "HTTP (misc)" .- OtherRouters
+
+  DashboardStub -->|launches| D1_Watcher
+
+  ORoutes -->|uses| SList
+
