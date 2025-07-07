@@ -95,6 +95,8 @@ uvicorn main:app --reload
    git clone https://github.com/hummingbot/backend-api-batched.git
    cd backend-api-batched
    make docker_build && make docker_run
+   # install dashboard dependencies
+   pip install -r requirements.txt
    ```
 4. Open http://localhost:8000/docs and, in another host terminal, start the dashboard:
    ```bash
@@ -113,6 +115,7 @@ uvicorn main:app --reload
    git clone https://github.com/hummingbot/backend-api-batched.git
    cd backend-api-batched
    make docker_build && make docker_run
+   pip install -r requirements.txt  # dashboard deps
    ```
 4. Optionally create a local venv for dashboard/scripts:
    ```bash
