@@ -1,0 +1,4 @@
+timestamp,event_type,strategy_name,candle_open_time,candle_close_time,candle_open,candle_high,candle_low,candle_close,candle_mid_price,reference_price,order_id,trade_type,created_price,created_size,position_id,fill_price,amount_filled,entry_price,close_price,closing_reason,pnl_quote,pnl_percent
+1710286200,CREATE,main,,,71449.90000000,71488.00000000,71413.60000000,71488.00000000,71450.80000000,,,SELL,71488.00000000,0.000699418084153983885407341092,,,,,,,,
+1710286200,FILL,main,,,,,,,,,,SELL,,,HCYbufEVCJ5XDRnLai5ZtvxCE9rmsSk9ky3pHfna6GEz,71488.00000000,100,,,,,
+1710288000,CLOSE,main,,,,,,,,,,SELL,,,HCYbufEVCJ5XDRnLai5ZtvxCE9rmsSk9ky3pHfna6GEz,,,,71378.30000000,CloseType.TIME_LIMIT,0.02672616383170849096995169702495331875979900360107421875,0.000534523276634169854093503460035208263434469699859619140625

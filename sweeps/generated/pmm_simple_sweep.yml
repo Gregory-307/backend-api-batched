@@ -1,0 +1,39 @@
+meta:
+  start: '2024-03-11'
+  end: '2024-03-13'
+  resolution: 3m
+  fee: 0.001
+base:
+  id: ''
+  controller_type: market_making
+  total_amount_quote: 100
+  manual_kill_switch: false
+  candles_config:
+  - connector: kucoin
+    trading_pair: BTC-USDT
+    interval: 3m
+  initial_positions: []
+  connector_name: kucoin
+  trading_pair: BTC-USDT
+  buy_spreads:
+  - 0.01
+  - 0.02
+  sell_spreads:
+  - 0.01
+  - 0.02
+  buy_amounts_pct: null
+  sell_amounts_pct: null
+  executor_refresh_time: 300
+  cooldown_time: 15
+  leverage: 20
+  position_mode: HEDGE
+  stop_loss: '0.03'
+  take_profit: '0.02'
+  time_limit: 2700
+  take_profit_order_type: 2
+  trailing_stop: null
+  position_rebalance_threshold_pct: '0.05'
+  skip_rebalance: false
+  controller_name: pmm_simple
+sweep: {}
+grid: {}

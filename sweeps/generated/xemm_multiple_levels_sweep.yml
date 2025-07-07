@@ -1,0 +1,24 @@
+meta:
+  start: '2024-03-11'
+  end: '2024-03-13'
+  resolution: 3m
+  fee: 0.001
+base:
+  id: ''
+  controller_name: xemm_multiple_levels
+  controller_type: generic
+  total_amount_quote: 100
+  manual_kill_switch: false
+  candles_config: []
+  initial_positions: []
+  maker_connector: mexc
+  maker_trading_pair: PEPE-USDT
+  taker_connector: kucoin
+  taker_trading_pair: PEPE-USDT
+  buy_levels_targets_amount: 0.003,10-0.006,20-0.009,30
+  sell_levels_targets_amount: 0.003,10-0.006,20-0.009,30
+  min_profitability: 0.003
+  max_profitability: 0.01
+  max_executors_imbalance: 1
+sweep: {}
+grid: {}

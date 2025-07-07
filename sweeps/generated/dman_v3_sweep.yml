@@ -1,0 +1,45 @@
+meta:
+  start: '2024-03-11'
+  end: '2024-03-13'
+  resolution: 3m
+  fee: 0.001
+base:
+  id: ''
+  controller_name: dman_v3
+  controller_type: directional_trading
+  total_amount_quote: 100
+  manual_kill_switch: false
+  candles_config:
+  - connector: kucoin
+    trading_pair: BTC-USDT
+    interval: 3m
+  initial_positions: []
+  connector_name: kucoin
+  trading_pair: BTC-USDT
+  max_executors_per_side: 2
+  cooldown_time: 300
+  leverage: 20
+  position_mode: HEDGE
+  stop_loss: '0.03'
+  take_profit: '0.02'
+  time_limit: 2700
+  take_profit_order_type: 2
+  trailing_stop: 0.015,0.005
+  candles_connector: kucoin
+  candles_trading_pair: BTC-USDT
+  interval: 3m
+  bb_length: 100
+  bb_std: 2.0
+  bb_long_threshold: 0.0
+  bb_short_threshold: 1.0
+  dca_spreads:
+  - '0.001'
+  - '0.018'
+  - '0.15'
+  - '0.25'
+  dca_amounts_pct: []
+  dynamic_order_spread: false
+  dynamic_target: false
+  activation_bounds: null
+sweep: {}
+grid: {}

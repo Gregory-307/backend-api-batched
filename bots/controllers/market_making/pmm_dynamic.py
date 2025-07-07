@@ -79,7 +79,24 @@ class PMMDynamicController(MarketMakingControllerBase):
     """
     def __init__(self, config: PMMDynamicControllerConfig, *args, **kwargs):
         self.config = config
-        self.max_records = max(config.macd_slow, config.macd_fast, config.macd_signal, config.natr_length) + 100
+        # Ensure candle source defaults to the main connector/pair, warn user if missing.
+        import warnings
+        if not self.config.candles_connector:
+            warnings.warn(
+                "candles_connector missing in config; defaulting to connector_name",
+                RuntimeWarning,
+            )
+            self.config.candles_connector = self.config.connector_name
+        if not self.config.candles_trading_pair:
+            warnings.warn(
+                "candles_trading_pair missing in config; defaulting to trading_pair",
+                RuntimeWarning,
+            )
+            self.config.candles_trading_pair = self.config.trading_pair
+
+        # Restore full window size (no artificial 100-row cap).
+        base_window = max(config.macd_slow, config.macd_fast, config.macd_signal, config.natr_length)
+        self.max_records = base_window + 100
         if len(self.config.candles_config) == 0:
             self.config.candles_config = [CandlesConfig(
                 connector=config.candles_connector,

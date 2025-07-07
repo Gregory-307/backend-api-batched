@@ -15,11 +15,14 @@ from hummingbot.strategy_v2.controllers.market_making_controller_base import (
 from hummingbot.strategy_v2.executors.position_executor.data_types import PositionExecutorConfig
 
 
-class PMMDynamicControllerConfig(MarketMakingControllerConfigBase):
+class PMMDynamic2ControllerConfig(MarketMakingControllerConfigBase):
     """
-    A simplified and robust configuration for the PMM Dynamic controller.
+    A simplified and robust configuration for an alternate PMM Dynamic controller.
+    This variant adds order_amount and MACD-driven adjustment factors, hence we
+    expose it under a distinct name to avoid clashing with the upstream
+    pmm_dynamic implementation.
     """
-    controller_name: str = "pmm_dynamic"
+    controller_name: str = "pmm_dynamic_2"
     
     # --- Market Data ---
     candles_connector: str = Field(default=None, json_schema_extra={"prompt": "Enter connector for candles"})
@@ -66,15 +69,30 @@ class PMMDynamicControllerConfig(MarketMakingControllerConfigBase):
         return v
 
 
-class PMMDynamicController(MarketMakingControllerBase):
+class PMMDynamic2Controller(MarketMakingControllerBase):
     """
     A simplified and robust PMM Dynamic controller focusing on stability.
     It uses MACD to adjust the reference price and spread multipliers.
     """
-    def _init_(self, config: PMMDynamicControllerConfig, *args, **kwargs):
-        super()._init_(config, *args, **kwargs)
+    def __init__(self, config: PMMDynamic2ControllerConfig, *args, **kwargs):
+        super().__init__(config, *args, **kwargs)
         self.config = config
-        self.max_records = config.macd_slow + 100
+        import warnings
+        if not self.config.candles_connector:
+            warnings.warn(
+                "candles_connector missing in config; defaulting to connector_name",
+                RuntimeWarning,
+            )
+            self.config.candles_connector = self.config.connector_name
+        if not self.config.candles_trading_pair:
+            warnings.warn(
+                "candles_trading_pair missing in config; defaulting to trading_pair",
+                RuntimeWarning,
+            )
+            self.config.candles_trading_pair = self.config.trading_pair
+
+        base_window = config.macd_slow
+        self.max_records = base_window + 100
         
         if not self.config.candles_config:
             self.config.candles_config = [CandlesConfig(

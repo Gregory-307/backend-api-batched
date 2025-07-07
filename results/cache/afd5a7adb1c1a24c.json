@@ -1,0 +1,62 @@
+{
+  "executors": [],
+  "processed_data": {
+    "timestamp_bt": {},
+    "open_bt": {},
+    "high_bt": {},
+    "low_bt": {},
+    "close_bt": {},
+    "volume_bt": {},
+    "quote_asset_volume_bt": {},
+    "n_trades_bt": {},
+    "taker_buy_base_volume_bt": {},
+    "taker_buy_quote_volume_bt": {},
+    "timestamp": {},
+    "open": {},
+    "high": {},
+    "low": {},
+    "close": {},
+    "volume": {},
+    "quote_asset_volume": {},
+    "n_trades": {},
+    "taker_buy_base_volume": {},
+    "taker_buy_quote_volume": {},
+    "SUPERT_20_4.0": {},
+    "SUPERTd_20_4.0": {},
+    "SUPERTl_20_4.0": {},
+    "SUPERTs_20_4.0": {},
+    "percentage_distance": {},
+    "signal": {}
+  },
+  "results": {
+    "note": "no trades",
+    "trades": 0,
+    "sharpe_ratio": 0
+  },
+  "config": {
+    "id": "4GxT3LXJCj6Wi6uCoNGLuWHfAABjBFg4zYgQuyWg7dvn",
+    "controller_name": "basic_order_open_close_example",
+    "controller_type": "generic",
+    "total_amount_quote": 100,
+    "manual_kill_switch": false,
+    "candles_config": [
+      {
+        "connector": "kucoin",
+        "trading_pair": "WLD-USDT",
+        "interval": "3m",
+        "max_records": 500
+      }
+    ],
+    "initial_positions": [],
+    "connector_name": "kucoin",
+    "trading_pair": "BTC-USDT",
+    "side": 1,
+    "position_mode": "HEDGE",
+    "leverage": 50,
+    "close_order_delay": 10,
+    "open_short_to_close_long": false,
+    "close_partial_position": false,
+    "amount_quote": 20
+  },
+  "event_log_csv": "results/event_logs/basic_order_open_close_example_events.csv"
+}

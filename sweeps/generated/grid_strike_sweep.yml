@@ -1,0 +1,42 @@
+meta:
+  start: '2024-03-11'
+  end: '2024-03-13'
+  resolution: 3m
+  fee: 0.001
+base:
+  id: ''
+  controller_name: grid_strike
+  controller_type: generic
+  total_amount_quote: '1000'
+  manual_kill_switch: false
+  candles_config:
+  - connector: kucoin
+    trading_pair: BTC-USDT
+    interval: 3m
+  initial_positions: []
+  leverage: 20
+  position_mode: HEDGE
+  connector_name: kucoin
+  trading_pair: BTC-USDT
+  side: 1
+  start_price: '0.58'
+  end_price: '0.95'
+  limit_price: '0.55'
+  min_spread_between_orders: '0.001'
+  min_order_amount_quote: '5'
+  max_open_orders: 2
+  max_orders_per_batch: 1
+  order_frequency: 3
+  activation_bounds: null
+  keep_position: false
+  triple_barrier_config:
+    stop_loss: null
+    take_profit: '0.001'
+    time_limit: null
+    trailing_stop: null
+    open_order_type: 3
+    take_profit_order_type: 3
+    stop_loss_order_type: 1
+    time_limit_order_type: 1
+sweep: {}
+grid: {}

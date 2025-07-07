@@ -1,0 +1,32 @@
+meta:
+  start: '2024-03-11'
+  end: '2024-03-13'
+  resolution: 3m
+  fee: 0.001
+base:
+  id: ''
+  controller_name: ai_livestream
+  controller_type: directional_trading
+  total_amount_quote: 100
+  manual_kill_switch: false
+  candles_config:
+  - connector: kucoin
+    trading_pair: BTC-USDT
+    interval: 3m
+  initial_positions: []
+  connector_name: kucoin
+  trading_pair: BTC-USDT
+  max_executors_per_side: 2
+  cooldown_time: 300
+  leverage: 20
+  position_mode: HEDGE
+  stop_loss: '0.03'
+  take_profit: '0.02'
+  time_limit: 2700
+  take_profit_order_type: 2
+  trailing_stop: null
+  long_threshold: 0.5
+  short_threshold: 0.5
+  topic: hbot/predictions
+sweep: {}
+grid: {}

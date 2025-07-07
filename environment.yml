@@ -19,5 +19,9 @@ dependencies:
       - pre-commit
       - rich
       - pyyaml
-  - streamlit
+      - pyarrow
+      - pandas-ta
+      - streamlit-aggrid
+      - playwright
+  - streamlit>=1.18.0
   - plotly

@@ -1,0 +1,7 @@
+{
+  "error": "An exception occurred during backtesting: Missing controller_type or controller_name in the configuration.",
+  "traceback": [
+    "Traceback (most recent call last):\n  File \"/backend-api/routers/manage_backtesting.py\", line 60, in run_backtesting\n    controller_config = backtesting_engine.get_controller_config_instance_from_dict(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/backend-api/lib/python3.12/site-packages/hummingbot/strategy_v2/backtesting/backtesting_engine_base.py\", line 67, in get_controller_config_instance_from_dict\n    raise ValueError(\"Missing controller_type or controller_name in the configuration.\")\nValueError: Missing controller_type or controller_name in the configuration.\n"
+  ],
+  "cached": false
+}

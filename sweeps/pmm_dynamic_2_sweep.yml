@@ -1,28 +1,56 @@
+# ------------------------
+# Order: meta → base → sweep → grid
+# ------------------------
+
+meta:
+  start: 2024-02-09 # start date
+  end: 2024-02-10 # end date
+  resolution: 3m # candle resolution
+  fee: 0.0001 # taker fee 0.1% 
+
 base:
-  controller_name: pmm_dynamic_2
-  controller_type: market_making
-  connector_name: kucoin
-  trading_pair: BTC-USDT
-  total_amount_quote: 1000
-  leverage: 20
-  candles_connector: kucoin
-  candles_trading_pair: BTC-USDT
-  interval: 3m
-  buy_spreads: [0.002]
-  sell_spreads: [0.002]
+  controller_name: pmm_dynamic_2 # strategy identifier
+  controller_type: market_making # category
+  connector_name: kucoin # exchange
+  trading_pair: ETH-USDT # market traded
+  total_amount_quote: 10000 # USD quote size
+  leverage: 1 # leverage multiplier
+  candles_connector: kucoin # candle source
+  candles_trading_pair: ETH-USDT # candle market
+  interval: 3m # candle timeframe
+  # Reference values (first element of each list below)
+  stop_loss: 0.01 # reference stop-loss
+  take_profit: 0.01 # reference take-profit
+  buy_spreads: 0.0005
+  sell_spreads: 0.0005
   macd_fast: 21
   macd_slow: 42
   macd_signal: 9
+  executor_refresh_time: 450
+  price_adjustment_factor: 1
+  spread_multiplier_factor: 1.5
+  max_spread_multiplier: 3
+  min_spread_multiplier: 0.2
+  position_rebalance_threshold_pct: 0.5
+  skip_rebalance: true
+  time_limit: 3600
+  take_profit_order_type: 1
 
-# Grid focuses on dynamic parameters
-grid:
-  price_adjustment_factor: [0.00005, 0.0001]
-  spread_multiplier_factor: [0.05, 0.1]
-  max_spread_multiplier: [1.5, 2.0]
-  min_spread_multiplier: [0.5]
+# (optional) sweep: – left blank for now
 
-meta:
-  start: 2024-03-11
-  end: 2024-03-13
-  resolution: 3m
-  fee: 0.001 
+# Sweep does a linear sweep of parameters
+sweep:
+  buy_spreads: [0.0002, 0.0005, 0.001, 0.002, 0.005, 0.01, 0.02, 0.05, 0.1] # buy spread 0.5% - 10%
+  sell_spreads: [0.0002, 0.0005, 0.001, 0.002, 0.005, 0.01, 0.02, 0.05, 0.1] # sell spread 0.5% - 10%
+  price_adjustment_factor: [-1, 1] # factor applied to price adj.
+  spread_multiplier_factor: [0.5, 1.5, 3] # multiplier factor list
+  stop_loss: [0.005, 0.01, 0.02, 0.04, 0.2, 0.5] # stop-loss 0.5% - 5%
+  take_profit: [0.005, 0.01, 0.02, 0.05, 0.1, 0.3] # take-profit 1% - 50%
+  time_limit: [900, 2700] # 15 minutes - 45 minutes
+  take_profit_order_type: [1, 2] # 2 = limit, 1 = market
+  executor_refresh_time: [150, 300, 450, 600]
+
+# Grid does a cartesian product sweep of parameters
+
+
+# (end base) 

@@ -4,6 +4,8 @@ from fastapi import APIRouter
 from hummingbot.data_feed.candles_feed.candles_factory import CandlesFactory
 from hummingbot.data_feed.candles_feed.data_types import CandlesConfig, HistoricalCandlesConfig
 
+import utils.candles_cache  # activate Parquet cache for candle data
+
 router = APIRouter(tags=["Market Data"])
 candles_factory = CandlesFactory()
 

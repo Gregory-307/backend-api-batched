@@ -1,0 +1,6 @@
+{
+  "error": "An exception occurred during backtesting: 'QGAConfig' object has no attribute 'trading_pair'",
+  "traceback": [
+    "Traceback (most recent call last):\n  File \"/backend-api/routers/manage_backtesting.py\", line 87, in run_backtesting\n    backtesting_results = await backtesting_engine.run_backtesting(\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/backend-api/lib/python3.12/site-packages/hummingbot/strategy_v2/backtesting/backtesting_engine_base.py\", line 95, in run_backtesting\n    await self.initialize_backtesting_data_provider()\n  File \"/opt/conda/envs/backend-api/lib/python3.12/site-packages/hummingbot/strategy_v2/backtesting/backtesting_engine_base.py\", line 108, in initialize_backtesting_data_provider\n    trading_pair=self.controller.config.trading_pair,\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/backend-api/lib/python3.12/site-packages/pydantic/main.py\", line 991, in __getattr__\n    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')\nAttributeError: 'QGAConfig' object has no attribute 'trading_pair'\n"
+  ]
+}

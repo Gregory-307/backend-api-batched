@@ -181,6 +181,33 @@ class FileSystemUtil:
         return None
 
     @staticmethod
+    def _create_stub(name: str):
+        """Create an empty stub module and register it (recursively) in sys.modules."""
+        import types, sys as _sys
+        if name in _sys.modules:
+            return
+        # Ensure parent packages exist
+        parts = name.split('.')
+        for i in range(1, len(parts) + 1):
+            sub = '.'.join(parts[:i])
+            if sub not in _sys.modules:
+                _sys.modules[sub] = types.ModuleType(sub)
+
+    @staticmethod
+    def _import_with_stubs(mod_name: str):
+        """Attempt to import *mod_name*; on ModuleNotFound, stub and retry."""
+        tried: set[str] = set()
+        while True:
+            try:
+                return importlib.import_module(mod_name)
+            except ModuleNotFoundError as exc_inner:
+                missing_mod = exc_inner.name
+                if missing_mod in tried:
+                    raise  # already tried stubbing; give up
+                tried.add(missing_mod)
+                FileSystemUtil._create_stub(missing_mod)
+
+    @staticmethod
     def load_controller_config_class(controller_type: str, controller_name: str):
         """
         Dynamically loads a controller's configuration class.
@@ -190,17 +217,43 @@ class FileSystemUtil:
         try:
             # Assuming controllers are in a package named 'controllers'
             module_name = f"bots.controllers.{controller_type}.{controller_name.replace('.py', '')}"
+
+            # ------------------------------------------------------------------
+            # Compatibility patch: pandas-ta (and other libs) still reference
+            # numpy.NaN, which was removed in NumPy 2.0.  Ensure the attribute
+            # exists before importing third-party libraries so the import does
+            # not fail.
+            # ------------------------------------------------------------------
+            try:
+                import numpy as _np  # type: ignore
+                if not hasattr(_np, "NaN"):
+                    _np.NaN = _np.nan  # type: ignore[attr-defined]
+            except Exception:
+                pass
+
             if module_name not in sys.modules:
-                script_module = importlib.import_module(module_name)
+                script_module = FileSystemUtil._import_with_stubs(module_name)
             else:
                 script_module = importlib.reload(sys.modules[module_name])
 
-            # Find the subclass of BaseClientModel in the module
+            candidates = []
             for _, cls in inspect.getmembers(script_module, inspect.isclass):
-                if (issubclass(cls, DirectionalTradingControllerConfigBase) and cls is not DirectionalTradingControllerConfigBase)\
-                        or (issubclass(cls, MarketMakingControllerConfigBase) and cls is not MarketMakingControllerConfigBase)\
+                if (issubclass(cls, DirectionalTradingControllerConfigBase) and cls is not DirectionalTradingControllerConfigBase) \
+                        or (issubclass(cls, MarketMakingControllerConfigBase) and cls is not MarketMakingControllerConfigBase) \
                         or (issubclass(cls, ControllerConfigBase) and cls is not ControllerConfigBase):
+                    candidates.append(cls)
+
+            # Prefer class whose `controller_name` matches the file name (sans .py)
+            target_name = controller_name.replace('.py', '')
+            for cls in candidates:
+                cname = getattr(cls, 'controller_name', None)
+                if isinstance(cname, str) and cname.lower() == target_name.lower():
                     return cls
+
+            # Otherwise pick the config class with the most declared fields (likely the leaf subclass)
+            if candidates:
+                candidates.sort(key=lambda c: len(getattr(c, 'model_fields', {})), reverse=True)
+                return candidates[0]
         except Exception as e:
             print(f"Error loading controller class: {e}")
 

@@ -1,0 +1,6658 @@
+[
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_1"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_2"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_3"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_4"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_5"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_6"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_7"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_8"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_9"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_10"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_11"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_12"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_13"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_14"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_15"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_16"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_17"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_18"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_19"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_20"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_21"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_22"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_23"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_24"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_25"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_26"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_27"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_28"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_29"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_30"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_31"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_32"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_33"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_34"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_35"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_36"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_37"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_38"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_39"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_40"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_41"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_42"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_43"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_44"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_45"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_46"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_47"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_48"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_49"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_50"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_51"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_52"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_53"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_54"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_55"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_56"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_57"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_58"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_59"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_60"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_61"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_62"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_63"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.005
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_64"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_65"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_66"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_67"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_68"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_69"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_70"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_71"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_72"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_73"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_74"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_75"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_76"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_77"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_78"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_79"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_80"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_81"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_82"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_83"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_84"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_85"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_86"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_87"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_88"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_89"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_90"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_91"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_92"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_93"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_94"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_95"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_96"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_97"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_98"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_99"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_100"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_101"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_102"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_103"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_104"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_105"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_106"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_107"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_108"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_109"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_110"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_111"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_112"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_113"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_114"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_115"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_116"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_117"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_118"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_119"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_120"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_121"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_122"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_123"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.002,
+        0.004,
+        0.006
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_124"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_125"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_126"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 300,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_127"
+  },
+  {
+    "config": {
+      "controller_name": "dman_maker_v2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "mode": "TAKER",
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.01
+      ],
+      "buy_amounts_pct": [
+        0.5
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "sell_amounts_pct": [
+        0.5
+      ],
+      "dca_spreads": [
+        0.003,
+        0.006,
+        0.009
+      ],
+      "dca_amounts": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "top_executor_refresh_time": 900,
+      "executor_refresh_time": 600,
+      "stop_loss": 0.02,
+      "take_profit": 0.03,
+      "executor_activation_bounds": []
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_maker_v2_128"
+  }
+]

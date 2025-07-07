@@ -1,5 +1,5 @@
 import json
-from typing import Dict, List
+from typing import Dict, List, get_args, get_origin, Any
 
 import yaml
 from fastapi import APIRouter, File, HTTPException, UploadFile
@@ -7,10 +7,165 @@ from starlette import status
 
 from models import Script, ScriptConfig
 from utils.file_system import FileSystemUtil
+from inspect import isclass
+from pydantic import BaseModel
+from pydantic.fields import PydanticUndefined
+from enum import Enum
 
 router = APIRouter(tags=["Files Management"])
 
 file_system = FileSystemUtil()
+
+
+def _placeholder_for_annotation(ann: Any):
+    """Return a generic placeholder based on type annotation."""
+    origin = get_origin(ann)
+    if origin is list:
+        return []
+    if origin is dict:
+        return {}
+    if ann in {int, float}:
+        return 0
+    if ann is str:
+        return ""
+    return None
+
+
+def _convert_comma_sep(value: str, subtype: Any):
+    """Convert a comma-separated string to list[ subtype ]."""
+    parts = [p.strip() for p in value.split(",") if p.strip()]
+    if subtype in (int, float):
+        def cast(x):
+            try:
+                return subtype(x)
+            except Exception:
+                return x
+        return [cast(p) for p in parts]
+    return parts
+
+
+def build_defaults(model_cls: type[BaseModel]) -> Dict[str, Any]:
+    """Return a fully-populated default dict for *model_cls*, recursively."""
+    instance = model_cls.model_construct()  # skips validation, fills defaults
+    # Using JSON mode ensures Enum members serialize to their underlying value (int/str) rather
+    # than the less useful "EnumClass.VALUE" string representation.
+    data: Dict[str, Any] = instance.model_dump(mode="json", exclude_unset=False)
+
+    for name, field in model_cls.model_fields.items():
+        ann = field.annotation
+        origin = get_origin(ann)
+        subtype = get_args(ann)[0] if origin is list and get_args(ann) else Any
+        val = data.get(name, PydanticUndefined)
+
+        # Handle list conversions ------------------------------------------------
+        if origin is list:
+            # Avoid converting when the subtype is itself a list (e.g. List[List[Decimal]]).
+            nested_list = get_origin(subtype) is list
+            if isinstance(val, str) and not nested_list:  # comma-separated defaults
+                data[name] = _convert_comma_sep(val, subtype)
+            elif val is None:
+                data[name] = []
+            elif isclass(subtype) and issubclass(subtype, BaseModel):
+                # leave empty list; creating sample nested objects often breaks validation
+                data[name] = []
+            continue
+
+        # Handle nested Pydantic model ------------------------------------------
+        if isclass(ann) and issubclass(ann, BaseModel):
+            if val is None or val == {}:
+                data[name] = build_defaults(ann)
+            continue
+
+        # Replace PydanticUndefined / None with placeholder ----------------------
+        if val is PydanticUndefined or val is None:
+            data[name] = _placeholder_for_annotation(ann)
+
+    # Ensure mandatory identifier fields are present
+    for key in ("controller_name", "controller_type"):
+        if not data.get(key):
+            attr_val = getattr(model_cls, key, None)
+            if isinstance(attr_val, str) and attr_val:
+                data[key] = attr_val
+
+    # --- Post-processing fixes ----------------------------------------------
+    def _serialise_enums(obj):
+        """Recursively convert Enum objects to their .value primitive."""
+        if isinstance(obj, Enum):
+            return obj.value
+        if isinstance(obj, list):
+            return [_serialise_enums(x) for x in obj]
+        if isinstance(obj, dict):
+            return {k: _serialise_enums(v) for k, v in obj.items()}
+        return obj
+
+    data = _serialise_enums(data)
+
+    # Prefer sandbox exchange for scaffolds to avoid live REST calls.
+    conn = data.get("connector_name")
+    if isinstance(conn, str) and conn.lower().startswith("binance"):
+        data["connector_name"] = "kucoin"
+
+    # ------------------------------------------------------------------
+    # Derive missing connector / trading_pair for multi-exchange controllers
+    # ------------------------------------------------------------------
+    if "connector_name" in model_cls.model_fields and not data.get("connector_name"):
+        ep1 = data.get("exchange_pair_1")
+        if isinstance(ep1, dict) and ep1.get("connector_name"):
+            data["connector_name"] = ep1["connector_name"]
+
+    if "trading_pair" in model_cls.model_fields and not data.get("trading_pair"):
+        ep1 = data.get("exchange_pair_1")
+        if isinstance(ep1, dict) and ep1.get("trading_pair"):
+            data["trading_pair"] = ep1["trading_pair"]
+        else:
+            quote = data.get("quote_asset") or "USDT"
+            portfolio = data.get("portfolio_allocation")
+            if isinstance(portfolio, dict) and portfolio:
+                first_asset = next(iter(portfolio))
+                data["trading_pair"] = f"{first_asset}-{quote}"
+
+    # ------------------------------------------------------------------
+    # Provide a sensible candles_config if missing (avoids timestamp_bt errors)
+    # ------------------------------------------------------------------
+    if (data.get("candles_config") in (None, [])) and data.get("connector_name") and data.get("trading_pair"):
+        data["candles_config"] = [{
+            "connector": data["connector_name"],
+            "trading_pair": data["trading_pair"],
+            "interval": "3m",
+        }]
+
+    # Kucoin doesn't list FDUSD pairs – swap to USDT for placeholders
+    def _sanitise_pair(pair: str) -> str:
+        if not isinstance(pair, str) or "-" not in pair:
+            return pair
+        base, quote = pair.split("-", 1)
+        if base in {"WLD", "PEPE"}:
+            base = "BTC"
+        if quote == "FDUSD":
+            quote = "USDT"
+        return f"{base}-{quote}"
+
+    if data.get("connector_name") == "kucoin" and isinstance(data.get("trading_pair"), str):
+        data["trading_pair"] = _sanitise_pair(data["trading_pair"])
+
+    # Propagate same sanitisation to candles_config and candles_trading_pair
+    if isinstance(data.get("candles_trading_pair"), str):
+        data["candles_trading_pair"] = _sanitise_pair(data["candles_trading_pair"])
+
+    if isinstance(data.get("candles_config"), list):
+        for feed in data["candles_config"]:
+            if isinstance(feed, dict) and "trading_pair" in feed:
+                feed["trading_pair"] = _sanitise_pair(feed["trading_pair"])
+
+    # Fill optional explicit candles_connector / candles_trading_pair so controllers like
+    # dman_v3 that reference them don't break when scaffolds omit them.
+    if "candles_connector" in model_cls.model_fields and not data.get("candles_connector"):
+        data["candles_connector"] = data.get("connector_name")
+
+    if "candles_trading_pair" in model_cls.model_fields and not data.get("candles_trading_pair"):
+        data["candles_trading_pair"] = data.get("trading_pair")
+
+    return data
 
 
 @router.get("/list-scripts", response_model=List[str])
@@ -34,9 +189,9 @@ async def get_script_config(script_name: str):
     if config_class is None:
         raise HTTPException(status_code=404, detail="Script configuration class not found")
 
-    # Extracting fields and default values
-    config_fields = {field.name: field.default for field in config_class.__fields__.values()}
-    return json.loads(json.dumps(config_fields, default=str))  # Handling non-serializable types like Decimal
+    # Extracting fields and default values using the improved logic
+    config_fields = build_defaults(config_class)
+    return json.loads(json.dumps(config_fields, default=str))
 
 
 @router.get("/list-controllers", response_model=dict)
@@ -62,8 +217,8 @@ async def get_controller_config_pydantic(controller_type: str, controller_name: 
     if config_class is None:
         raise HTTPException(status_code=404, detail="Controller configuration class not found")
 
-    # Extracting fields and default values
-    config_fields = {name: field.default for name, field in config_class.model_fields.items()}
+    # Extracting fields and default values using the improved logic
+    config_fields = build_defaults(config_class)
     return json.loads(json.dumps(config_fields, default=str))
 
 

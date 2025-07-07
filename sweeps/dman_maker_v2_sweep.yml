@@ -1,0 +1,51 @@
+# ------------------------
+# Order: meta → base → sweep → grid
+# ------------------------
+
+meta:
+  start: 2024-03-11 # back-test start date
+  end: 2024-03-13 # back-test end date
+  resolution: 3m # candle resolution
+  fee: 0.001 # taker fee 0.1% 
+
+base:
+  controller_name: dman_maker_v2 # strategy identifier
+  controller_type: market_making # strategy category
+  connector_name: kucoin # exchange connector
+  trading_pair: BTC-USDT # market traded
+  total_amount_quote: 1000 # quote currency per run (USD)
+  leverage: 20 # leverage multiplier
+  # Reference values
+  buy_spreads: 0.001
+  buy_amounts_pct: 1.0
+  sell_spreads: 0.001
+  sell_amounts_pct: 1.0
+  dca_spreads: [0.002,0.004,0.006]
+  dca_amounts: [0.2,0.2,0.2]
+  top_executor_refresh_time: 300
+  executor_refresh_time: 600
+  stop_loss: 0.02
+  take_profit: 0.03
+  candles_config:
+    - connector: kucoin # data source
+      trading_pair: BTC-USDT # market for candles
+      interval: 3m # candle timeframe
+
+# (optional) sweep:
+
+# Grid focuses on DCA spreads & amounts
+grid:
+  buy_spreads: [0.001] # distance from mid-price (0.1%)
+  buy_amounts_pct: [1.0] # allocation percentages per buy level
+  sell_spreads: [0.001] # distance from mid-price (0.1%)
+  sell_amounts_pct: [1.0] # allocation percentages per sell level
+  dca_spreads:
+    - [0.002, 0.004, 0.006] # ladder spreads (0.2–0.6%)
+    - [0.003, 0.006, 0.009] # ladder spreads (0.3–0.9%)
+  dca_amounts:
+    - [0.2, 0.2, 0.2] # amounts pct per DCA level
+    - [0.4, 0.4, 0.4] # amounts pct per DCA level
+  top_executor_refresh_time: [300, 900] # seconds before refreshing first level
+  executor_refresh_time: [600] # seconds for other levels
+  stop_loss: [0.02] # stop-loss 2%
+  take_profit: [0.03] # take-profit 3% 

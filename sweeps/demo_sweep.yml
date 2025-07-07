@@ -1,21 +1,36 @@
-base:
-  controller_name: pmm_simple
-  controller_type: market_making
-  connector_name: kucoin
-  trading_pair: BTC-USDT
-  total_amount_quote: 500
-  candles_config:
-    - connector: kucoin
-      trading_pair: BTC-USDT
-      interval: 3m
-
-grid:
-  buy_spreads: [0.002, 0.004]
-  sell_spreads: [0.002, 0.004]
-  stop_loss: [0.03, 0.05]
+# ------------------------
+# Order: meta → base → sweep → grid
+# ------------------------
 
 meta:
-  start: 2024-03-11
-  end: 2024-03-13
-  resolution: 3m
-  fee: 0.001 
+  start: 2024-03-11 # start date
+  end: 2024-03-13 # end date
+  resolution: 3m # candle resolution
+  fee: 0.001 # taker fee 0.1% 
+
+base:
+  controller_name: pmm_simple # strategy identifier
+  controller_type: market_making # category
+  connector_name: kucoin # exchange
+  trading_pair: BTC-USDT # market traded
+  total_amount_quote: 500 # USD quote
+  buy_spreads: 0.001
+  sell_spreads: 0.001
+  executor_refresh_time: 1800
+  buy_amounts_pct: 100
+  sell_amounts_pct: 100
+  stop_loss: 0.05
+  candles_config:
+    - connector: kucoin # candle source
+      trading_pair: BTC-USDT # candle market
+      interval: 3m # timeframe
+
+# (optional) sweep:
+
+grid:
+  buy_spreads: [0.001, 0.002] # buy spreads list
+  sell_spreads: [0.001, 0.002] # sell spreads list
+  executor_refresh_time: [1800] # refresh seconds
+  buy_amounts_pct: [100] # % of quote per buy side
+  sell_amounts_pct: [100] # % of quote per sell side
+  stop_loss: [0.05] # stop-loss 5% 

@@ -1,0 +1,45 @@
+meta:
+  start: '2024-03-11'
+  end: '2024-03-13'
+  resolution: 3m
+  fee: 0.001
+base:
+  id: ''
+  controller_name: quantum_grid_allocator
+  controller_type: generic
+  total_amount_quote: 100
+  manual_kill_switch: false
+  candles_config: []
+  initial_positions: []
+  long_only_threshold: '0.2'
+  short_only_threshold: '0.2'
+  hedge_ratio: '2'
+  base_grid_value_pct: '0.08'
+  max_grid_value_pct: '0.15'
+  safe_extra_spread: '0.0001'
+  favorable_order_frequency: 2
+  unfavorable_order_frequency: 5
+  max_orders_per_batch: 1
+  portfolio_allocation:
+    SOL: '0.50'
+  grid_range: '0.002'
+  tp_sl_ratio: '0.8'
+  min_order_amount: '5'
+  max_deviation: '0.05'
+  max_open_orders: 2
+  connector_name: kucoin
+  leverage: 1
+  position_mode: HEDGE
+  quote_asset: FDUSD
+  fee_asset: BNB
+  min_spread_between_orders: '0.0001'
+  grid_tp_multiplier: '0.0001'
+  limit_price_spread: '0.001'
+  activation_bounds: '0.0002'
+  bb_lenght: 100
+  bb_std_dev: 2.0
+  interval: 1s
+  dynamic_grid_range: false
+  show_terminated_details: false
+sweep: {}
+grid: {}

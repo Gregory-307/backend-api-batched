@@ -1,0 +1,7 @@
+{
+  "error": "An exception occurred during backtesting: 1 validation error for ArbitrageControllerConfig\nconnector_name\n  Object has no attribute 'connector_name' [type=no_such_attribute, input_value='kucoin', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/no_such_attribute",
+  "traceback": [
+    "Traceback (most recent call last):\n  File \"/backend-api/routers/manage_backtesting.py\", line 76, in run_backtesting\n    controller_config.connector_name = getattr(ep1, \"connector_name\", None)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/backend-api/lib/python3.12/site-packages/pydantic/main.py\", line 998, in __setattr__\n    setattr_handler(self, name, value)  # call here to not memo on possibly unknown fields\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/backend-api/lib/python3.12/site-packages/pydantic/main.py\", line 114, in <lambda>\n    'validate_assignment': lambda model, name, val: model.__pydantic_validator__.validate_assignment(model, name, val),  # pyright: ignore[reportAssignmentType]\n                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npydantic_core._pydantic_core.ValidationError: 1 validation error for ArbitrageControllerConfig\nconnector_name\n  Object has no attribute 'connector_name' [type=no_such_attribute, input_value='kucoin', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.11/v/no_such_attribute\n"
+  ],
+  "cached": false
+}

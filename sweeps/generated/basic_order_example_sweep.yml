@@ -1,0 +1,25 @@
+meta:
+  start: '2024-03-11'
+  end: '2024-03-13'
+  resolution: 3m
+  fee: 0.001
+base:
+  id: ''
+  controller_name: basic_order_example
+  controller_type: generic
+  total_amount_quote: 100
+  manual_kill_switch: false
+  candles_config:
+  - connector: kucoin
+    trading_pair: BTC-USDT
+    interval: 3m
+  initial_positions: []
+  connector_name: kucoin
+  trading_pair: BTC-USDT
+  side: 1
+  position_mode: HEDGE
+  leverage: 50
+  amount_quote: '10'
+  order_frequency: 10
+sweep: {}
+grid: {}

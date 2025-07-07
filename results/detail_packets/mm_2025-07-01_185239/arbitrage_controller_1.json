@@ -1,0 +1,7 @@
+{
+  "error": "An exception occurred during backtesting: 'ArbitrageControllerConfig' object has no attribute 'connector_name'",
+  "traceback": [
+    "Traceback (most recent call last):\n  File \"/backend-api/routers/manage_backtesting.py\", line 65, in run_backtesting\n    backtesting_results = await backtesting_engine.run_backtesting(\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/backend-api/lib/python3.12/site-packages/hummingbot/strategy_v2/backtesting/backtesting_engine_base.py\", line 91, in run_backtesting\n    await self.backtesting_data_provider.initialize_trading_rules(controller_config.connector_name)\n                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/envs/backend-api/lib/python3.12/site-packages/pydantic/main.py\", line 991, in __getattr__\n    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')\nAttributeError: 'ArbitrageControllerConfig' object has no attribute 'connector_name'\n"
+  ],
+  "cached": true
+}

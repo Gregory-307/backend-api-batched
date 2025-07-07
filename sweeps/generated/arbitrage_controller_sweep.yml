@@ -1,0 +1,26 @@
+meta:
+  start: '2024-03-11'
+  end: '2024-03-13'
+  resolution: 3m
+  fee: 0.001
+base:
+  id: ''
+  controller_name: arbitrage_controller
+  controller_type: generic
+  total_amount_quote: 100
+  manual_kill_switch: false
+  candles_config: []
+  initial_positions: []
+  exchange_pair_1:
+    connector_name: kucoin
+    trading_pair: PENGU-USDT
+  exchange_pair_2:
+    connector_name: solana_jupiter_mainnet-beta
+    trading_pair: PENGU-USDC
+  min_profitability: '0.01'
+  delay_between_executors: 10
+  max_executors_imbalance: 1
+  rate_connector: kucoin
+  quote_conversion_asset: USDT
+sweep: {}
+grid: {}

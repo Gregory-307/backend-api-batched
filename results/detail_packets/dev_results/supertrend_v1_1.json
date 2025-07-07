@@ -1,0 +1,71 @@
+{
+  "executors": [],
+  "processed_data": {
+    "timestamp_bt": {},
+    "open_bt": {},
+    "high_bt": {},
+    "low_bt": {},
+    "close_bt": {},
+    "volume_bt": {},
+    "quote_asset_volume_bt": {},
+    "n_trades_bt": {},
+    "taker_buy_base_volume_bt": {},
+    "taker_buy_quote_volume_bt": {},
+    "timestamp": {},
+    "open": {},
+    "high": {},
+    "low": {},
+    "close": {},
+    "volume": {},
+    "quote_asset_volume": {},
+    "n_trades": {},
+    "taker_buy_base_volume": {},
+    "taker_buy_quote_volume": {},
+    "SUPERT_20_4.0": {},
+    "SUPERTd_20_4.0": {},
+    "SUPERTl_20_4.0": {},
+    "SUPERTs_20_4.0": {},
+    "percentage_distance": {},
+    "signal": {}
+  },
+  "results": {
+    "note": "no trades",
+    "trades": 0,
+    "sharpe_ratio": 0
+  },
+  "config": {
+    "id": "4a62EY2bB8Xd8QvgiZHs9624gRKApdDwMNzLrrEywMtm",
+    "controller_name": "supertrend_v1",
+    "controller_type": "directional_trading",
+    "total_amount_quote": 100,
+    "manual_kill_switch": false,
+    "candles_config": [
+      {
+        "connector": "kucoin",
+        "trading_pair": "BTC-USDT",
+        "interval": "3m",
+        "max_records": 500
+      }
+    ],
+    "initial_positions": [],
+    "connector_name": "kucoin",
+    "trading_pair": "BTC-USDT",
+    "max_executors_per_side": 2,
+    "cooldown_time": 300,
+    "leverage": 20,
+    "position_mode": "HEDGE",
+    "stop_loss": 0.03,
+    "take_profit": 0.02,
+    "time_limit": 2700,
+    "take_profit_order_type": 2,
+    "trailing_stop": null,
+    "candles_connector": "kucoin",
+    "candles_trading_pair": "BTC-USDT",
+    "interval": "3m",
+    "length": 20,
+    "multiplier": 4.0,
+    "percentage_threshold": 0.01
+  },
+  "event_log_csv": "results/event_logs/supertrend_v1_events.csv",
+  "cached": false
+}

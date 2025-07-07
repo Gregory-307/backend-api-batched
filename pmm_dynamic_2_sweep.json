@@ -1,0 +1,2598 @@
+[
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_1",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0002
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_2",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0002
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_3",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.001
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_4",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.001
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_5",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_6",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.01
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_7",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.01
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.02
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_8",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.02
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.05
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_9",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.05
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.1
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_10",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.1
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0002
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_11",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0002
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_12",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.001
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_13",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.001
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_14",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_15",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_16",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.01
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.02
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_17",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.02
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.05
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_18",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.05
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.1
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_19",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.1
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": -1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_20",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": -1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_21",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 0.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_22",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 0.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_23",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 3,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_24",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 3,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.005,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_25",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.005,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_26",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.02,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_27",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.02,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.04,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_28",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.04,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.2,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_29",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.2,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.5,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_30",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.5,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.005,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_31",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.005,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_32",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.02,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_33",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.02,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.05,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_34",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.05,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.1,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_35",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.1,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.3,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_36",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.3,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 900,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_37",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 900,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 2700,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_38",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 2700,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_39",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 2,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_40",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 2,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 150,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_41",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 150
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 300,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_42",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 300
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 450,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_43",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 450
+    }
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic_2",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "ETH-USDT",
+      "total_amount_quote": 10000,
+      "leverage": 1,
+      "candles_connector": "kucoin",
+      "candles_trading_pair": "ETH-USDT",
+      "interval": "3m",
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "macd_fast": 21,
+      "macd_slow": 42,
+      "macd_signal": 9,
+      "executor_refresh_time": 600,
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "max_spread_multiplier": 3,
+      "min_spread_multiplier": 0.2,
+      "position_rebalance_threshold_pct": 0.5,
+      "skip_rebalance": true,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-02-09",
+    "end": "2024-02-10",
+    "resolution": "3m",
+    "fee": 0.0001,
+    "label": "pmm_dynamic_2_44",
+    "_sweep_params": {
+      "buy_spreads": [
+        0.0005
+      ],
+      "sell_spreads": [
+        0.0005
+      ],
+      "price_adjustment_factor": 1,
+      "spread_multiplier_factor": 1.5,
+      "stop_loss": 0.01,
+      "take_profit": 0.01,
+      "time_limit": 3600,
+      "take_profit_order_type": 1,
+      "executor_refresh_time": 600
+    }
+  }
+]

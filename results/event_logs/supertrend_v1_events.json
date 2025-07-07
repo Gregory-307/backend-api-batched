@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": 1710286200,
+    "event_type": "CREATE",
+    "strategy_name": "main",
+    "candle_open_time": null,
+    "candle_close_time": null,
+    "candle_open": 10.1299,
+    "candle_high": 10.2314,
+    "candle_low": 10.1299,
+    "candle_close": 10.2199,
+    "candle_mid_price": 10.18065,
+    "reference_price": null,
+    "order_id": null,
+    "trade_type": "SELL",
+    "created_price": 10.2199,
+    "created_size": "4.892415777062397453119877632"
+  },
+  {
+    "timestamp": 1710286200,
+    "event_type": "FILL",
+    "strategy_name": "main",
+    "order_id": null,
+    "position_id": "9zH3v9yQgrCQa8dKyebGvqQMwec5n3BRnJgytLDuVf7L",
+    "trade_type": "SELL",
+    "fill_price": 10.2199,
+    "amount_filled": "100"
+  },
+  {
+    "timestamp": 1710288000,
+    "event_type": "CLOSE",
+    "strategy_name": "main",
+    "order_id": null,
+    "position_id": "9zH3v9yQgrCQa8dKyebGvqQMwec5n3BRnJgytLDuVf7L",
+    "trade_type": "SELL",
+    "entry_price": null,
+    "close_price": 10.1104,
+    "closing_reason": "CloseType.TIME_LIMIT",
+    "pnl_quote": "0.4857195275883297025387719259015284478664398193359375",
+    "pnl_percent": "0.00971439055176659405077543851803056895732879638671875"
+  }
+]

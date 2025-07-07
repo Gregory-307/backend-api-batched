@@ -1,19 +1,31 @@
-base:
-  controller_name: pmm_skew
-  controller_type: market_making
-  connector_name: kucoin
-  trading_pair: BTC-USDT
-  total_amount_quote: 500
-  skew_factor: 0.2
-  candles_config: []
-
-grid:
-  buy_spreads: [0.001, 0.002]
-  sell_spreads: [0.001, 0.002]
-  skew_factor: [0.0, 0.1, 0.2]
+# ------------------------
+# Order: meta → base → sweep → grid
+# ------------------------
 
 meta:
-  start: 2024-03-11
-  end: 2024-03-13
-  resolution: 3m
-  fee: 0.001 
+  start: 2024-03-11 # back-test start
+  end: 2024-03-13 # back-test end
+  resolution: 3m # candle resolution
+  fee: 0.001 # taker fee 0.1% 
+
+base:
+  controller_name: pmm_skew # strategy identifier
+  controller_type: market_making # strategy category
+  connector_name: kucoin # exchange connector
+  trading_pair: BTC-USDT # market traded
+  total_amount_quote: 500 # quote amount in USD
+  buy_spreads: 0.003
+  sell_spreads: 0.003
+  skew_factor: 0.2 # default skew multiplier
+  executor_refresh_time: 1800 # seconds before refreshing orders
+  candles_config:
+    - connector: kucoin # data source
+      trading_pair: BTC-USDT # candle market
+      interval: 3m # timeframe
+
+# (optional) sweep:
+
+grid:
+  buy_spreads: [0.003, 0.005, 0.007, 0.009] # ask/bid distance (0.3–0.5%)
+  sell_spreads: [0.003, 0.005, 0.007, 0.009] # ask/bid distance (0.3–0.5%)
+  skew_factor: [0.0, 0.1, 0.2, 0.4] # bias multiplier for spreads 

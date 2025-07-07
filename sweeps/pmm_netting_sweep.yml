@@ -1,0 +1,28 @@
+# ------------------------
+# Order: meta → base → sweep → grid
+# ------------------------
+
+meta:
+  start: 2024-03-11
+  end: 2024-03-13
+  resolution: 3m
+  fee: 0.001
+
+base:
+  controller_name: pmm_netting
+  controller_type: market_making
+  connector_name: kucoin
+  trading_pair: BTC-USDT
+  total_amount_quote: 1000
+  buy_spreads: 0.001
+  sell_spreads: 0.001
+  buy_amounts_pct: 100
+  sell_amounts_pct: 100
+  auto_netting: true
+  cancel_opposite_orders_on_fill: false
+
+# (optional) sweep:
+
+grid:
+  buy_spreads: [0.0005, 0.001, 0.002]
+  sell_spreads: [0.0005, 0.001, 0.002] 
