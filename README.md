@@ -1,5 +1,4 @@
 # Hummingbot Backtesting API & Dashboard  
-[![Build](https://img.shields.io/github/actions/workflow/status/Gregory-307/backend-api-batched/ci.yml?logo=github)](https://github.com/Gregory-307/backend-api-batched/actions/workflows/ci.yml)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hummingbot/backend-api?logo=docker)](https://hub.docker.com/r/hummingbot/backend-api)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -183,13 +182,15 @@ base:
   buy_spreads: 0.002        # default values that *can* be overridden
   sell_spreads: 0.002
 
-grid:                       # 3 × 2 = 6 combos
+sweep:                      # adds only 5 runs (one-at-a-time replacement)
+  stop_loss:    [0.005, 0.01, 0.02]
+  take_profit:  [0.005, 0.01]
+
+grid:                       # adds 3 × 2 = 6 runs (all possible combinations replacement)
   buy_spreads:  [0.001, 0.002, 0.005]
   sell_spreads: [0.001, 0.002]
-
-sweep:                      # adds 3 extra runs (one-at-a-time)
-  stop_loss:    [0.01, 0.02, 0.05]
 ```
+
 The file above produces **9 runs** (6 grid permutations + 3 sweeps).
 
 Pipeline:
