@@ -1,5 +1,5 @@
 # Hummingbot Backtesting API & Dashboard  
-[![Build](https://img.shields.io/github/actions/workflow/status/hummingbot/backend-api-batched/ci.yml?logo=github)](https://github.com/hummingbot/backend-api-batched/actions)
+[![Build](https://img.shields.io/github/actions/workflow/status/Gregory-307/backend-api-batched/ci.yml?logo=github)](https://github.com/Gregory-307/backend-api-batched/actions/workflows/ci.yml)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hummingbot/backend-api?logo=docker)](https://hub.docker.com/r/hummingbot/backend-api)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -62,7 +62,10 @@ docker compose logs -f backend-api | cat
 ### 2 – Run the Dashboard
 Requires host Python 3.10+ (no Conda necessary):
 ```bash
-python3 scripts/dev_watch.py   # opens http://localhost:8501
+# install dependencies once (inside WSL / your host shell)
+pip install -r requirements.txt
+
+python3 scripts/dev_watch.py   # typically opens http://localhost:8501
 ```
 The watcher runs Python & UI smoke tests first, then launches Streamlit with **auto-reload**.
 
@@ -221,6 +224,7 @@ Outputs:
 |------|--------------|
 | **Experiments Overview** | Batch KPI header + interactive Ag-Grid leaderboard. |
 | **Top 5** | Side-by-side deep-dive of the best runs by any metric. |
+| **Sweep Analysis** | In-depth KPI distributions, correlation plots, interactive filters. |
 | **Experiment Analysis** | Full trade inspector: 3-row price + PnL chart, KPI cards, trade table. |
 
 Launch locally:
