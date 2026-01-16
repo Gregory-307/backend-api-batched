@@ -1,0 +1,5 @@
+--- a/hummingbot/strategy_v2/backtesting/backtesting_engine_base.py
++++ b/hummingbot/strategy_v2/backtesting/backtesting_engine_base.py
+@@
+-            sharpe_ratio = returns.mean() / returns.std() if len(returns) > 1 else 0
++            sharpe_ratio = 0 if returns.std() == 0 else returns.mean() / returns.std() 

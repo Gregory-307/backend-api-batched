@@ -1,0 +1,2562 @@
+[
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_1"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_2"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_3"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_4"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_5"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_6"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_7"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_8"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_9"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_10"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_11"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_12"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_13"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_14"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_15"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_16"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_17"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_18"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_19"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_20"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_21"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_22"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_23"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_24"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_25"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_26"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_27"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_28"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_29"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_30"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_31"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.002
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_32"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_33"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_34"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_35"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_36"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_37"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_38"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_39"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_40"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_41"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_42"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_43"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_44"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_45"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_46"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_47"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.002
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_48"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_49"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_50"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_51"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_52"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_53"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_54"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_55"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 10,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_56"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_57"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_58"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_59"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 1800,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_60"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_61"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.03,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_62"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.02,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_63"
+  },
+  {
+    "config": {
+      "controller_name": "pmm_dynamic",
+      "controller_type": "market_making",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m",
+          "start_time": "2024-03-11",
+          "end_time": "2024-03-13"
+        }
+      ],
+      "buy_spreads": [
+        0.004
+      ],
+      "sell_spreads": [
+        0.004
+      ],
+      "cooldown_time": 30,
+      "executor_refresh_time": 3600,
+      "stop_loss": 0.05,
+      "take_profit": 0.04,
+      "buy_amounts_pct": [
+        1.0
+      ],
+      "sell_amounts_pct": [
+        1.0
+      ]
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "pmm_dynamic_64"
+  }
+]

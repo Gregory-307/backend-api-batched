@@ -2,6 +2,7 @@ from decimal import Decimal
 from typing import List
 
 import pandas_ta as ta  # noqa: F401
+import pandas as pd
 from pydantic import Field, field_validator
 from pydantic_core.core_schema import ValidationInfo
 
@@ -89,26 +90,61 @@ class PMMDynamicController(MarketMakingControllerBase):
         super().__init__(config, *args, **kwargs)
 
     async def update_processed_data(self):
-        candles = self.market_data_provider.get_candles_df(connector_name=self.config.candles_connector,
-                                                           trading_pair=self.config.candles_trading_pair,
-                                                           interval=self.config.interval,
-                                                           max_records=self.max_records)
-        natr = ta.natr(candles["high"], candles["low"], candles["close"], length=self.config.natr_length) / 100
-        macd_output = ta.macd(candles["close"], fast=self.config.macd_fast,
-                              slow=self.config.macd_slow, signal=self.config.macd_signal)
-        macd = macd_output[f"MACD_{self.config.macd_fast}_{self.config.macd_slow}_{self.config.macd_signal}"]
-        macd_signal = - (macd - macd.mean()) / macd.std()
-        macdh = macd_output[f"MACDh_{self.config.macd_fast}_{self.config.macd_slow}_{self.config.macd_signal}"]
-        macdh_signal = macdh.apply(lambda x: 1 if x > 0 else -1)
-        max_price_shift = natr / 2
-        price_multiplier = ((0.5 * macd_signal + 0.5 * macdh_signal) * max_price_shift).iloc[-1]
-        candles["spread_multiplier"] = natr
-        candles["reference_price"] = candles["close"] * (1 + price_multiplier)
-        self.processed_data = {
-            "reference_price": Decimal(candles["reference_price"].iloc[-1]),
-            "spread_multiplier": Decimal(candles["spread_multiplier"].iloc[-1]),
-            "features": candles
-        }
+        """Compute reference price & spread multiplier with robust fallbacks."""
+        try:
+            candles = self.market_data_provider.get_candles_df(
+                connector_name=self.config.candles_connector,
+                trading_pair=self.config.candles_trading_pair,
+                interval=self.config.interval,
+                max_records=self.max_records,
+            )
+
+            if candles is None or candles.empty or len(candles) < self.config.macd_slow:
+                raise ValueError("Insufficient candle data")
+
+            # Clean duplicates
+            candles = candles[~candles.index.duplicated(keep="last")]
+
+            # Indicators
+            natr = ta.natr(candles["high"], candles["low"], candles["close"], length=self.config.natr_length) / 100
+            macd_output = ta.macd(
+                candles["close"],
+                fast=self.config.macd_fast,
+                slow=self.config.macd_slow,
+                signal=self.config.macd_signal,
+            )
+            macd_col = f"MACD_{self.config.macd_fast}_{self.config.macd_slow}_{self.config.macd_signal}"
+            macdh_col = f"MACDh_{self.config.macd_fast}_{self.config.macd_slow}_{self.config.macd_signal}"
+
+            macd = macd_output[macd_col]
+            macd_signal = -(macd - macd.mean()) / macd.std() if macd.std() != 0 else macd * 0
+            macdh = macd_output[macdh_col]
+            macdh_signal = macdh.apply(lambda x: 1 if x > 0 else -1)
+
+            max_price_shift = natr / 2
+            price_multiplier = ((0.5 * macd_signal + 0.5 * macdh_signal) * max_price_shift).iloc[-1]
+
+            candles["spread_multiplier"] = natr
+            candles["reference_price"] = candles["close"] * (1 + price_multiplier)
+
+            self.processed_data = {
+                "reference_price": Decimal(str(candles["reference_price"].iloc[-1])),
+                "spread_multiplier": Decimal(str(candles["spread_multiplier"].iloc[-1])),
+                "features": candles,
+            }
+        except Exception as e:
+            # Surface a hard failure so users fix candle data rather than silently degrading
+            msg = (
+                f"pmm_dynamic.update_processed_data failed – candle data unavailable or malformed: {e}. "
+                "Ensure candles_config includes start_time/end_time matching the backtest window, "
+                "and that the CandlesFactory has access to historical data."
+            )
+            # Log and raise to abort backtest clearly
+            try:
+                self.logger().error(msg)
+            except Exception:
+                pass
+            raise RuntimeError(msg) from e
 
     def get_executor_config(self, level_id: str, price: Decimal, amount: Decimal):
         trade_type = self.get_trade_type_from_level_id(level_id)

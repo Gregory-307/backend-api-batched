@@ -1,0 +1,4482 @@
+[
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_1"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_2"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_3"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_4"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_5"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_6"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_7"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_8"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_9"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_10"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_11"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_12"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_13"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_14"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_15"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_16"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_17"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_18"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_19"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_20"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_21"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_22"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_23"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_24"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_25"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_26"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_27"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_28"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_29"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_30"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_31"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_32"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_33"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_34"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_35"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_36"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_37"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_38"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_39"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_40"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_41"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_42"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_43"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_44"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_45"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_46"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_47"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_48"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_49"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_50"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_51"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_52"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_53"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_54"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_55"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_56"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_57"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_58"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_59"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_60"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_61"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_62"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_63"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 1.5,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_64"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_65"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_66"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_67"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_68"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_69"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_70"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_71"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_72"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_73"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_74"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_75"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_76"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_77"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_78"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_79"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_80"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_81"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_82"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_83"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_84"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_85"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_86"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_87"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_88"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_89"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_90"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_91"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_92"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_93"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_94"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_95"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.2,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_96"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_97"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_98"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_99"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_100"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_101"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_102"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_103"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_104"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_105"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_106"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_107"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_108"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_109"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_110"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_111"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.2,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_112"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_113"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_114"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_115"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_116"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_117"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_118"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_119"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.005,
+        0.01
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_120"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_121"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_122"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_123"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        50,
+        50
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_124"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_125"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.03,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_126"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.02
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_127"
+  },
+  {
+    "config": {
+      "controller_name": "dman_v3",
+      "controller_type": "directional_trading",
+      "connector_name": "kucoin",
+      "trading_pair": "BTC-USDT",
+      "total_amount_quote": 1000,
+      "leverage": 20,
+      "candles_config": [
+        {
+          "connector": "kucoin",
+          "trading_pair": "BTC-USDT",
+          "interval": "3m"
+        }
+      ],
+      "bb_std": 2.0,
+      "bb_long_threshold": 0.3,
+      "bb_short_threshold": 0.3,
+      "dca_spreads": [
+        0.01,
+        0.02
+      ],
+      "dca_amounts_pct": [
+        25,
+        75
+      ],
+      "stop_loss": 0.05,
+      "take_profit": 0.04
+    },
+    "start": "2024-03-11",
+    "end": "2024-03-13",
+    "resolution": "3m",
+    "fee": 0.001,
+    "label": "dman_v3_128"
+  }
+]

@@ -1,0 +1,8 @@
+--- a/hummingbot/strategy_v2/controllers/__init__.py
++++ b/hummingbot/strategy_v2/controllers/__init__.py
+@@
+ CONTROLLER_REGISTRY = {
+ }
++
++from .market_making.pmm_dynamic_2 import PMMDynamic2Controller
++CONTROLLER_REGISTRY["pmm_dynamic_2"] = PMMDynamic2Controller 

@@ -17,3 +17,7 @@ dependencies:
       - flake8
       - isort
       - pre-commit
+      - rich
+      - pyyaml
+  - streamlit
+  - plotly

@@ -2,12 +2,17 @@ version: "3.9"
 
 services:
   backend-api:
-    container_name: backend-api
-    image: hummingbot/backend-api:latest
+    build: .
     ports:
       - "8000:8000"
     volumes:
       - ./bots:/backend-api/bots
+      - ./services:/backend-api/services
+      - ./models:/backend-api/models
+      - ./utils:/backend-api/utils
+      - ./routers:/backend-api/routers
+      - ./config.py:/backend-api/config.py
+      - ./main.py:/backend-api/main.py
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - BROKER_HOST=emqx
@@ -17,7 +22,6 @@ services:
     networks:
       - emqx-bridge
   emqx:
-    container_name: hummingbot-broker
     image: emqx:5
     restart: unless-stopped
     environment:
