@@ -1,5 +1,7 @@
 # Hummingbot Backtesting & Deployment Platform
 
+[![Tests](https://github.com/Gregory-307/backend-api-batched/actions/workflows/tests.yml/badge.svg)](https://github.com/Gregory-307/backend-api-batched/actions/workflows/tests.yml)
+
 A production-ready backend API for systematic backtesting and deployment of algorithmic trading strategies built on the Hummingbot framework.
 
 ## Overview
@@ -230,6 +232,69 @@ streamlit run dashboard/app.py
     ├── debugging-guide.md
     └── adding-strategies.md
 ```
+
+## Sample Backtest Results
+
+Example output from a PMM Simple parameter sweep on BTC-USDT (2024-01-01 to 2024-03-01):
+
+| Strategy | Spreads | Leverage | Net PnL | Sharpe | Trades | Max Drawdown |
+|----------|---------|----------|---------|--------|--------|--------------|
+| pmm_simple | [0.01, 0.02] | 5x | +$127.45 | 1.23 | 892 | -3.2% |
+| pmm_simple | [0.02, 0.03] | 5x | +$89.21 | 0.94 | 654 | -2.8% |
+| pmm_simple | [0.01, 0.02] | 10x | +$234.67 | 1.45 | 892 | -5.1% |
+| pmm_simple | [0.005, 0.01] | 5x | -$45.32 | -0.34 | 1,247 | -4.7% |
+
+*Results are from historical backtesting and do not guarantee future performance.*
+
+Key observations:
+- Wider spreads (0.02-0.03) reduced trade frequency but maintained positive PnL
+- Higher leverage amplified both gains and drawdowns proportionally
+- Tight spreads (0.005) increased trade frequency but led to losses due to fees
+
+## Design Decisions
+
+### Why Zone-Based Portfolio Rebalancing?
+
+The `portfolio_rebalancing_grid` strategy uses deviation zones rather than continuous rebalancing for several reasons:
+
+1. **Reduced Trading Costs**: Continuous rebalancing generates excessive trades when prices oscillate around the target. Zones provide hysteresis, only triggering when deviation exceeds a threshold.
+
+2. **Directional Conviction**: In the long-only zone (underweight), we only create buy grids because we have high confidence we need to accumulate. Mixing buy/sell grids would dilute this conviction.
+
+3. **Hedge Zone Flexibility**: When near target allocation, we create both buy and sell grids with asymmetric sizing, allowing the market to determine direction while maintaining balanced exposure.
+
+### Why MACD + NATR for PMM Dynamic?
+
+The combination serves complementary purposes:
+
+- **MACD for Direction**: The normalized MACD signal shifts the reference price up (bullish) or down (bearish), biasing order placement toward the expected market direction.
+
+- **NATR for Volatility**: Normalized ATR scales spreads dynamically. In high volatility, wider spreads capture larger price swings; in low volatility, tighter spreads maintain competitiveness.
+
+- **50/50 Signal Weighting**: Equal weighting of MACD line and histogram balances trend strength (MACD line) with momentum (histogram), avoiding over-reliance on either signal.
+
+### Why Grid Value Scaling with Deviation?
+
+The strategy uses `base_grid_value_pct` for small deviations and `max_grid_value_pct` for large deviations:
+
+```
+if abs_deviation > max_deviation:
+    grid_value_pct = max_grid_value_pct  # 15%
+else:
+    grid_value_pct = base_grid_value_pct  # 8%
+```
+
+This creates urgency: small deviations are addressed gradually, while large deviations trigger more aggressive rebalancing to quickly restore target allocation.
+
+### Why Keep Position on Unfavorable Grids?
+
+Line 463 sets `keep_position=True` even for unfavorable grids. This allows:
+
+1. **Mean Reversion**: An unfavorable position may reverse; keeping it avoids locking in losses.
+2. **Averaging Down**: Subsequent favorable grids can improve the average entry price.
+3. **Reduced Churn**: Immediate liquidation would increase trading costs and slippage.
+
+The trade-off is increased exposure, managed by the `max_deviation` parameter.
 
 ## Upstream Patches
 
