@@ -1,3 +1,4 @@
+import logging
 import os
 import shutil
 
@@ -28,16 +29,16 @@ class BotArchiver:
 
         try:
             self.s3.upload_file(archive_path, bucket_name, archive_name)
-            print(f"Archive {archive_name} uploaded successfully to S3.")
+            logging.info("Archive %s uploaded successfully to S3.", archive_name)
             os.remove(archive_path)  # Remove the local archive file
             shutil.rmtree(instance_dir)  # Remove the instance directory
         except NoCredentialsError:
-            print("Credentials not available for AWS S3.")
+            logging.error("Credentials not available for AWS S3.")
 
     @staticmethod
     def compress_directory(source_dir, output_path):
         shutil.make_archive(output_path.replace('.tar.gz', ''), 'gztar', source_dir)
-        print(f"Compressed {source_dir} into {output_path}")
+        logging.info("Compressed %s into %s", source_dir, output_path)
 
     def archive_locally(self, instance_name, instance_dir, compress=False):
         if compress:

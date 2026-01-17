@@ -10,9 +10,9 @@ from typing import List, Optional
 import yaml
 from hummingbot.client.config.config_data_types import BaseClientModel
 from hummingbot.client.config.config_helpers import ClientConfigAdapter
+from hummingbot.strategy_v2.controllers.controller_base import ControllerConfigBase
 from hummingbot.strategy_v2.controllers.directional_trading_controller_base import DirectionalTradingControllerConfigBase
 from hummingbot.strategy_v2.controllers.market_making_controller_base import MarketMakingControllerConfigBase
-from hummingbot.strategy_v2.controllers.controller_base import ControllerConfigBase
 
 
 class FileSystemUtil:
@@ -177,7 +177,7 @@ class FileSystemUtil:
                 if issubclass(cls, BaseClientModel) and cls is not BaseClientModel:
                     return cls
         except Exception as e:
-            print(f"Error loading script class: {e}")  # Handle or log the error appropriately
+            logging.error("Error loading script class: %s", e)
         return None
 
     @staticmethod
@@ -202,7 +202,7 @@ class FileSystemUtil:
                         or (issubclass(cls, ControllerConfigBase) and cls is not ControllerConfigBase):
                     return cls
         except Exception as e:
-            print(f"Error loading controller class: {e}")
+            logging.error("Error loading controller class: %s", e)
 
     @staticmethod
     def ensure_file_and_dump_text(file_path, text):

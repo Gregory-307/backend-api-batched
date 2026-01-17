@@ -2,8 +2,6 @@ from decimal import Decimal
 from typing import Dict, List, Set, Union
 
 import pandas_ta as ta  # noqa: F401
-from pydantic import Field, field_validator
-
 from hummingbot.core.data_type.common import OrderType, PositionMode, PriceType, TradeType
 from hummingbot.data_feed.candles_feed.data_types import CandlesConfig
 from hummingbot.strategy_v2.controllers import ControllerBase, ControllerConfigBase
@@ -12,10 +10,11 @@ from hummingbot.strategy_v2.executors.grid_executor.data_types import GridExecut
 from hummingbot.strategy_v2.executors.position_executor.data_types import TripleBarrierConfig
 from hummingbot.strategy_v2.models.executor_actions import CreateExecutorAction, StopExecutorAction
 from hummingbot.strategy_v2.models.executors_info import ExecutorInfo
+from pydantic import Field, field_validator
 
 
-class QGAConfig(ControllerConfigBase):
-    controller_name: str = "quantum_grid_allocator"
+class PortfolioRebalancingGridConfig(ControllerConfigBase):
+    controller_name: str = "portfolio_rebalancing_grid"
     candles_config: List[CandlesConfig] = []
 
     # Portfolio allocation zones
@@ -66,7 +65,7 @@ class QGAConfig(ControllerConfigBase):
     activation_bounds: Decimal = Field(
         default=Decimal("0.0002"),  # Activation bounds for orders
         json_schema_extra={"is_updatable": True})
-    bb_lenght: int = 100
+    bb_length: int = 100
     bb_std_dev: float = 2.0
     interval: str = "1s"
     dynamic_grid_range: bool = Field(default=False, json_schema_extra={"is_updatable": True})
@@ -95,8 +94,8 @@ class QGAConfig(ControllerConfigBase):
         return markets
 
 
-class QuantumGridAllocator(ControllerBase):
-    def __init__(self, config: QGAConfig, *args, **kwargs):
+class PortfolioRebalancingGrid(ControllerBase):
+    def __init__(self, config: PortfolioRebalancingGridConfig, *args, **kwargs):
         self.config = config
         self.metrics = {}
         # Track unfavorable grid IDs
@@ -113,7 +112,7 @@ class QuantumGridAllocator(ControllerBase):
             connector=config.connector_name,
             trading_pair=trading_pair + "-" + config.quote_asset,
             interval=config.interval,
-            max_records=config.bb_lenght + 100
+            max_records=config.bb_length + 100
         ) for trading_pair in config.portfolio_allocation.keys()]
         super().__init__(config, *args, **kwargs)
         self.initialize_rate_sources()
@@ -130,13 +129,13 @@ class QuantumGridAllocator(ControllerBase):
                 connector_name=self.config.connector_name,
                 trading_pair=trading_pair,
                 interval=self.config.interval,
-                max_records=self.config.bb_lenght + 100
+                max_records=self.config.bb_length + 100
             )
             if len(candles) == 0:
                 bb_width = self.config.grid_range
             else:
-                bb = ta.bbands(candles["close"], length=self.config.bb_lenght, std=self.config.bb_std_dev)
-                bb_width = bb[f"BBB_{self.config.bb_lenght}_{self.config.bb_std_dev}"].iloc[-1] / 100
+                bb = ta.bbands(candles["close"], length=self.config.bb_length, std=self.config.bb_std_dev)
+                bb_width = bb[f"BBB_{self.config.bb_length}_{self.config.bb_std_dev}"].iloc[-1] / 100
             self.processed_data[trading_pair] = {
                 "bb_width": bb_width
             }

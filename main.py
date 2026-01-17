@@ -20,9 +20,19 @@ from routers import (
 load_dotenv()
 security = HTTPBasic()
 
-username = os.getenv("USERNAME", "admin")
-password = os.getenv("PASSWORD", "admin")
-debug_mode = os.getenv("DEBUG_MODE", False)
+# Authentication credentials - MUST be set via environment variables in production
+# See .env.example for required variables
+username = os.getenv("API_USERNAME", "admin")
+password = os.getenv("API_PASSWORD", "admin")
+debug_mode = os.getenv("DEBUG_MODE", "false").lower() == "true"
+
+if username == "admin" and password == "admin":
+    import warnings
+    warnings.warn(
+        "Using default credentials (admin/admin). "
+        "Set API_USERNAME and API_PASSWORD environment variables for production.",
+        UserWarning
+    )
 
 app = FastAPI()
 

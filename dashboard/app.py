@@ -1,9 +1,8 @@
-import os
 from pathlib import Path
 
 import pandas as pd
-import streamlit as st
 import plotly.express as px
+import streamlit as st
 
 # ---------------------------------------------------------------------------
 # Config

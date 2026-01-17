@@ -16,14 +16,13 @@ import argparse
 import hashlib
 import itertools
 import json
+import json as _json
 import os
 import sys
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Tuple
-import json as _json
 
 import pandas as pd
 import requests
@@ -644,7 +643,6 @@ def main() -> None:
             sys.exit(f"❌  Cannot read JSON from {args.config_file}: {exc}")
 
         cfg_manual = fill_defaults(cfg_manual)
-        cfg_manual = _sanitize_cfg(cfg_manual)
 
         # optional blueprint validation unless skipped
         if not args.skip_blueprint_check:

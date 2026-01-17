@@ -3,9 +3,9 @@
 A super-simple, hardcoded script to run a single backtest and see if it works.
 """
 import json
+import socket
 import time
 from datetime import datetime, timezone
-import socket
 
 import requests
 from requests.auth import HTTPBasicAuth

@@ -1,7 +1,7 @@
 import logging
+import math
 import traceback
 from typing import Dict, Union
-import math
 
 from fastapi import APIRouter
 from hummingbot.data_feed.candles_feed.candles_factory import CandlesFactory
@@ -46,8 +46,7 @@ class BacktestingConfig(BaseModel):
 
 @router.post("/run-backtesting")
 async def run_backtesting(backtesting_config: BacktestingConfig):
-    print("RUNNING BACKTESTING")
-    print("BACKTESTING CONFIG: ", backtesting_config)
+    logging.info("Running backtesting with config: %s", backtesting_config)
     try:
         if isinstance(backtesting_config.config, str):
             controller_config = backtesting_engine.get_controller_config_instance_from_yml(

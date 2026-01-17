@@ -14,14 +14,12 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
 import tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, Dict, List
 
-import requests
 from requests.auth import HTTPBasicAuth
 
 try:
@@ -31,24 +29,24 @@ except ImportError:
 
 import pandas as pd
 
-from grid_builder import build_payloads
 from batch_tester import (
+    BLUEPRINT_PATH,
+    PASSWORD,
+    USERNAME,
+    TestPayload,
+    _normalize_blueprints,
     run_backtest,
     validate_against_blueprint,
-    _normalize_blueprints,
-    TestPayload,
-    BLUEPRINT_PATH,
-    BASE_URL,
-    USERNAME,
-    PASSWORD,
 )
+from grid_builder import build_payloads
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 
 def wait_for_api(host: str = "localhost", port: int = 8000, timeout: int = 30) -> None:
-    import socket, time
+    import socket
+    import time
     t0 = time.time()
     while time.time() - t0 < timeout:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:

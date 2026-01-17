@@ -1,11 +1,7 @@
 from decimal import Decimal
-from typing import List, Dict, Optional
+from typing import List
 
 import pandas_ta as ta
-import pandas as pd
-from pydantic import Field, field_validator
-from pydantic_core.core_schema import ValidationInfo
-
 from hummingbot.core.data_type.common import TradeType
 from hummingbot.data_feed.candles_feed.data_types import CandlesConfig
 from hummingbot.strategy_v2.controllers.market_making_controller_base import (
@@ -13,6 +9,8 @@ from hummingbot.strategy_v2.controllers.market_making_controller_base import (
     MarketMakingControllerConfigBase,
 )
 from hummingbot.strategy_v2.executors.position_executor.data_types import PositionExecutorConfig
+from pydantic import Field, field_validator
+from pydantic_core.core_schema import ValidationInfo
 
 
 class PMMDynamicControllerConfig(MarketMakingControllerConfigBase):

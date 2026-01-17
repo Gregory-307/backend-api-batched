@@ -2,7 +2,6 @@ from decimal import Decimal
 from typing import Dict, List, Set
 
 import pandas as pd
-
 from hummingbot.client.ui.interface_utils import format_df_for_printout
 from hummingbot.data_feed.candles_feed.data_types import CandlesConfig
 from hummingbot.strategy_v2.controllers.controller_base import ControllerBase, ControllerConfigBase

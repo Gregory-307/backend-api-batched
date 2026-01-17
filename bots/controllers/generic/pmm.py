@@ -1,9 +1,6 @@
 from decimal import Decimal
 from typing import Dict, List, Optional, Set, Tuple, Union
 
-from pydantic import Field, field_validator
-from pydantic_core.core_schema import ValidationInfo
-
 from hummingbot.core.data_type.common import OrderType, PositionMode, PriceType, TradeType
 from hummingbot.core.data_type.trade_fee import TokenAmount
 from hummingbot.data_feed.candles_feed.data_types import CandlesConfig
@@ -13,6 +10,8 @@ from hummingbot.strategy_v2.executors.order_executor.data_types import Execution
 from hummingbot.strategy_v2.executors.position_executor.data_types import PositionExecutorConfig, TripleBarrierConfig
 from hummingbot.strategy_v2.models.executor_actions import CreateExecutorAction, ExecutorAction, StopExecutorAction
 from hummingbot.strategy_v2.models.executors import CloseType
+from pydantic import Field, field_validator
+from pydantic_core.core_schema import ValidationInfo
 
 
 class PMMConfig(ControllerConfigBase):

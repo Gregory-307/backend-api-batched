@@ -1,13 +1,12 @@
 import json
+import logging
 import time
-
-from typing import List, Dict, Any
+from typing import Any, Dict, List
 
 import pandas as pd
-
-from utils.etl_databases import HummingbotDatabase, ETLPerformance
 from fastapi import APIRouter
 
+from utils.etl_databases import ETLPerformance, HummingbotDatabase
 from utils.file_system import FileSystemUtil
 
 router = APIRouter(tags=["Database Management"])
@@ -39,7 +38,7 @@ async def read_databases(db_paths: List[str] = None):
                 }
             }
         except Exception as e:
-            print(f"Error reading database {db_path}: {str(e)}")
+            logging.error("Error reading database %s: %s", db_path, e)
             db_content = {
                 "db_name": "",
                 "db_path": db_path,
