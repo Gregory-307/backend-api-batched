@@ -21,14 +21,18 @@ Usage examples
 --------------
 ```bash
 # 1. Quick demo run (uses 3 hard-coded configs)
-python3 batch_tester.py --demo
+python3 batch_tester.py --demo --fetch-candles
 
 # 2. Point at your own file (list or dict of configs)
-python3 batch_tester.py --file my_tests.json --outfile results.csv
+python3 batch_tester.py --file my_tests.json --outfile results.csv --fetch-candles
 
 # 3. Run with 4 parallel workers and 2 retries on network errors
-python3 batch_tester.py --file tests.yml --workers 4 --retries 2
+python3 batch_tester.py --file tests.yml --workers 4 --retries 2 --fetch-candles
 ```
+
+IMPORTANT: Use --fetch-candles to automatically download historical market data
+before each backtest. Without this flag, backtests will fail if candle data
+hasn't been pre-downloaded via the /historical-candles endpoint.
 
 The input file may be JSON **or** YAML.
 Each element must look like the `config` section of `/run-backtesting`.
@@ -112,6 +116,58 @@ def wait_for_api(host: str = "localhost", port: int = 8000, timeout: int = 30) -
                 return
         time.sleep(1)
     raise RuntimeError("API not ready after %s s" % timeout)
+
+
+def ensure_candles(
+    connector: str,
+    pair: str,
+    interval: str,
+    start: int,
+    end: int,
+    auth: HTTPBasicAuth,
+    timeout: int = 60,
+) -> bool:
+    """
+    Pre-fetch historical candles via POST /historical-candles.
+    Then poll /candles-count until data is available or timeout is reached.
+    Returns True if candles are ready, False otherwise.
+    """
+    # Fire request to fetch candles
+    try:
+        url = f"{BASE_URL}/historical-candles"
+        body = {
+            "connector": connector,
+            "trading_pair": pair,
+            "interval": interval,
+            "start_time": start,
+            "end_time": end,
+        }
+        requests.post(url, json=body, auth=auth, timeout=120)
+    except requests.exceptions.RequestException:
+        pass  # non-fatal; we'll check if data exists below
+
+    # Poll until candles exist or timeout
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        try:
+            r = requests.get(
+                f"{BASE_URL}/candles-count",
+                params={
+                    "connector": connector,
+                    "trading_pair": pair,
+                    "interval": interval,
+                    "start_time": start,
+                    "end_time": end,
+                },
+                auth=auth,
+                timeout=10,
+            )
+            if r.status_code == 200 and r.json().get("count", 0) > 0:
+                return True
+        except requests.exceptions.RequestException:
+            pass
+        time.sleep(2)
+    return False
 
 
 def run_backtest(body: Dict[str, Any], auth: HTTPBasicAuth, retries: int = 1) -> Dict[str, Any]:
@@ -303,6 +359,39 @@ def validate_against_blueprint(cfg: dict, blueprints: dict) -> List[str]:
 # ---------------------------------------------------------------------------
 
 
+def run_single_test(
+    test: TestPayload,
+    auth: HTTPBasicAuth,
+    retries: int,
+    fetch_candles: bool,
+) -> Dict[str, Any]:
+    """Run a single backtest, optionally pre-fetching candles first."""
+    cfg = test.config
+
+    if fetch_candles:
+        # Extract candle configs from the test config
+        candles_configs = cfg.get("candles_config", [])
+        if not candles_configs:
+            # Fallback: use connector/pair from main config
+            connector = cfg.get("connector_name", cfg.get("candles_connector", ""))
+            pair = cfg.get("trading_pair", cfg.get("candles_trading_pair", ""))
+            interval = cfg.get("interval", "1m")
+            if connector and pair:
+                candles_configs = [{"connector": connector, "trading_pair": pair, "interval": interval}]
+
+        # Pre-fetch candles for each config
+        for cc in candles_configs:
+            connector = cc.get("connector", "")
+            pair = cc.get("trading_pair", "")
+            interval = cc.get("interval", "1m")
+            if connector and pair:
+                ready = ensure_candles(connector, pair, interval, test.start, test.end, auth)
+                if not ready:
+                    return {"error": f"timeout waiting for candles ({connector}/{pair}/{interval})"}
+
+    return run_backtest(test.to_body(), auth, retries)
+
+
 def main(argv: Sequence[str] | None = None) -> None:
     p = argparse.ArgumentParser(description="Simple batch back-tester")
     g = p.add_mutually_exclusive_group(required=True)
@@ -312,6 +401,7 @@ def main(argv: Sequence[str] | None = None) -> None:
     p.add_argument("--retries", type=int, default=1, help="Network retry count")
     p.add_argument("--outfile", default="batch_results.csv", help="Where to save CSV")
     p.add_argument("--no-schema", action="store_true", help="Skip blueprint validation")
+    p.add_argument("--fetch-candles", action="store_true", help="Pre-download candles before each backtest")
     args = p.parse_args(argv)
 
     wait_for_api()
@@ -333,7 +423,10 @@ def main(argv: Sequence[str] | None = None) -> None:
     rows: List[Dict[str, Any]] = []
 
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
-        fut_map = {ex.submit(run_backtest, t.to_body(), auth, args.retries): t for t in tests}
+        fut_map = {
+            ex.submit(run_single_test, t, auth, args.retries, args.fetch_candles): t
+            for t in tests
+        }
         for fut in as_completed(fut_map):
             t = fut_map[fut]
             res = fut.result()

@@ -53,12 +53,17 @@ Run systematic parameter sweeps with the batch tester:
 # Generate test payloads from YAML grid
 make grid GRID=sweeps/pmm_dynamic_sweep.yml OUT=pmm_dynamic_tests.json
 
-# Execute backtests in parallel
+# Execute backtests in parallel (with automatic candle data fetching)
+python batch_tester.py --file pmm_dynamic_tests.json --workers 8 --fetch-candles
+
+# Or use make targets
 make batch FILE=pmm_dynamic_tests.json WORKERS=8
 
-# Or combine both steps
+# Combine both steps
 make sweep GRID=sweeps/pmm_dynamic_sweep.yml WORKERS=8
 ```
+
+**Important**: Use `--fetch-candles` to automatically download historical market data before each backtest. Without this flag, backtests will fail if candle data hasn't been pre-downloaded.
 
 Results are saved to CSV with metrics including Sharpe ratio, PnL, drawdown, and trade statistics.
 
@@ -132,25 +137,51 @@ meta:
 ### Prerequisites
 
 - Python 3.12+
-- Docker & Docker Compose (for containerized deployment)
-- Conda (for local development)
+- Docker & Docker Compose
+- Windows: Docker Desktop
 
-### Installation
+### Quick Start (Windows)
 
-**Option A: Conda (Development)**
+**One command to run everything:**
 
-```bash
-make install
-conda activate backend-api
-uvicorn main:app --reload
+```batch
+run_backtest.bat
 ```
 
-**Option B: Docker Compose (Production)**
+This will:
+1. Start the Docker backend (includes Hummingbot)
+2. Wait for the API to be ready
+3. Run a demo backtest
+4. Save results to `demo_results.csv`
+
+**Run with your own sweep file:**
+
+```batch
+run_backtest.bat sweeps/pmm_dynamic_sweep.yml
+```
+
+**Stop the backend:**
+
+```batch
+run_backtest.bat --stop
+```
+
+### Manual Installation
+
+**Option A: Docker Compose (Recommended)**
 
 ```bash
 cp .env.example .env
 # Edit .env with your credentials
 docker compose up --build
+```
+
+**Option B: Conda (Development)**
+
+```bash
+make install
+conda activate backend-api
+uvicorn main:app --reload
 ```
 
 ### Configuration

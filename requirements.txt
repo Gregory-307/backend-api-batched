@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+boto3
+python-dotenv
+docker
+hummingbot
+git+https://github.com/hummingbot/hbot-remote-client-py.git
+flake8
+isort
+pre-commit
+rich
+pyyaml
+streamlit
+plotly
+pandas
+requests
