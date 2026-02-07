@@ -173,3 +173,5 @@ sweeps/*.json
 
 # Runtime bot data
 bots/data/
+
+nul
